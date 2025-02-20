@@ -164,7 +164,7 @@ async function startnigg(phone) {
           await xlicon.sendMessage(
             xlicon.user.id,
             {
-              text: 'Hello there! 👋 \n\nDo not share your session id with anyone.\n\nPut the above in SESSION_ID var\n\nThanks for using XLICON-BOT\n\n Join my support Channel for any Query\n https://whatsapp.com/channel/0029VaMGgVL3WHTNkhzHik3c \n',
+              text: 'Hello there! 👋 \n\nDo not share your session id with anyone.\n\nPut the above in SESSION_ID var\n\nThanks for using 𝚃𝙲𝚁𝙾𝙽𝙴𝙱-𝚇𝙼𝙳-𝙿𝙻𝚄𝚂\n\n Join my support Channel for any Query\n https://t.me/tcronebhackx \n',
             },
             { quoted: guru }
           )
