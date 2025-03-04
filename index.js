@@ -157,7 +157,7 @@ async function startnigg(phone) {
           await delay(10000)
           let data1 = fs.createReadStream(`${sessionFolder}/creds.json`);
           const output = await upload(data1, createRandomId() + '.json');
-          let sessi = output.includes('https://mega.nz/file/') ? "xliconv2~" + output.split('https://mega.nz/file/')[1] : 'Error Uploading to Mega';
+          let sessi = output.includes('https://mega.nz/file/') ? "shinita~" + output.split('https://mega.nz/file/')[1] : 'Error Uploading to Mega';
           await delay(2000)
           let guru = await xlicon.sendMessage(xlicon.user.id, { text: sessi })
           await delay(2000)
